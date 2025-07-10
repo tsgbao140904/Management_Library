@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.low-stock {
+    background: linear-gradient(90deg, #fffbe6 60%, #ffe066 100%) !important;
+    border-left: 8px solid #ff9800;
+    box-shadow: 0 2px 12px #ffe06680;
+    transition: background 0.3s;
+}
+.low-stock td {
+    color: #222 !important;
+    font-weight: normal;
+}
+.warning-icon {
+    font-size: 1.2em;
+    color: #ffb300;
+    margin-right: 4px;
+    vertical-align: middle;
+}
